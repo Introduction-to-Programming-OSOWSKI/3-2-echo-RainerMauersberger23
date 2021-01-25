@@ -1,7 +1,8 @@
 def echo(x, y):
-    for i in range ("hello", 5):
-        print (i)
+    output = x
+    for i in range (1, y):
+        output = output + x
 
-    return "done"
+    return output
 
 print (echo("hello", 5))
